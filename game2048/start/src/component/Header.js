@@ -8,7 +8,7 @@ export default function Header({ score, bestScore }) {
         <div className="score-container" style={{ marginRight: 5 }}>
           {score}
         </div>
-        <div className="best-container">2480</div>
+        <div className="best-container">{bestScore}</div>
       </div>
     </header>
   );
